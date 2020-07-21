@@ -4,9 +4,7 @@ export default class FilterObject extends Component{
     constructor(){
         super();
         this.state = {
-            unFilteredArray: [],
             userInput: '',
-            filteredArray: [],
             
             employees: [
                 {
@@ -57,5 +55,4 @@ export default class FilterObject extends Component{
     </div>
         )
     }
-
 }
